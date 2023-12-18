@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local-Storage-Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div id="parent">
+        <h1>User Data</h1>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age" required><br><br>
+            <input type="submit" value="submit">
+        </form>
+        <button id="retrieve">Retrieve</button>
+    </div>
+    <table id="table">
+        <tr id="head">
+            <th>Name</th>
+            <th>Age</th>  
+        </tr>
+        <tr>
+            <td id="tdName"></td>
+            <td id="tdAge"></td>
+        </tr>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>
